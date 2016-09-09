@@ -13,10 +13,8 @@
 	margin:0 auto;
 }
 button{
-	background-color:#A71D31;
-	border:1px solid #A71D31;
 	border-radius:5px;
-	color:#DDD;
+	
 	margin-bottom:30px;
 	margin-top:20px;
 	padding:15px;
@@ -56,6 +54,22 @@ button:last-child{
 .features{
 	padding:20px;
 	margin-bottom: 40px;
+}
+
+.quote{
+	background-color:#333;
+	color:#999;
+	margin-bottom: 20px;
+	
+	width:100%;
+}
+
+blockquote{
+	border-left:none;
+}
+
+.transport-header{
+	margin-bottom:30px;
 }
 .footer{
 	background-color: #CCC;
