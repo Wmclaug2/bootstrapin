@@ -12,9 +12,25 @@
 .buttons{
 	margin:0 auto;
 }
+#nav-button{
+	background-color:black;
+}
+
+#nav-button:hover{
+	background-color:rgba(77,161,180);
+}
+
+.tabs-navs:hover{
+	background-color:#777;
+}
+
+.nav-pills{
+	float:right;
+	margin-top:5px;
+}
+
 button{
 	border-radius:5px;
-	
 	margin-bottom:30px;
 	margin-top:20px;
 	padding:15px;
@@ -30,10 +46,18 @@ button:last-child{
 	text-decoration: none;
 }
 
+.book-button a {
+	color:white;
+}
+
 .header{
 	font-size:70px;
 	margin-bottom: 30px;
 	padding-top: 20px;
+}
+
+#brand-logo{
+	color:rgba(51,122,183,.8);
 }
 
 .lead{
@@ -77,4 +101,8 @@ blockquote{
 	padding:30px;
 	padding-bottom: 40px;
 	width:100%;
+}
+
+.links{
+	margin-left:30px;
 }
