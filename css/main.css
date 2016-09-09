@@ -55,13 +55,14 @@ button:last-child{
 }
 
 .header{
-	font-size:3em;
+	margin:0 auto;
 	margin-bottom: 30px;
 	padding-top: 20px;
+	width:90%;
 }
 
-.header h1{
-	font-size:;
+.header-text{
+	font-size: 5em;
 }
 
 #brand-logo{
