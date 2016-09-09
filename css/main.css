@@ -62,6 +62,7 @@ button:last-child{
 }
 
 .header-text{
+	color:red;
 	font-size: 5em;
 }
 
