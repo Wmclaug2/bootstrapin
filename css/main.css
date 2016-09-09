@@ -16,6 +16,13 @@
 .buttons{
 	margin:0 auto;
 }
+
+.buttons.smallo{
+	visibility: none;
+	opacity: 0;
+	height:0;
+}
+
 #nav-button{
 	background-color:black;
 }
@@ -106,19 +113,11 @@ blockquote{
 }
 
 .transport-header{
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .check{
 	color:green;
-}
-
-.rain{
-	color:blue;
-}
-
-.sun{
-	color:yellow;
 }
 
 .footer{
@@ -129,9 +128,10 @@ blockquote{
 	width:100%;
 }
 
-.links{
-	margin-left:30px;
+.links, .who-are{
+	margin-left:8px;
 }
+
 
 
 @media(max-width:800px){
@@ -146,5 +146,15 @@ blockquote{
 	}
 	img.space{
 		display:none;
+	}
+	.buttons.smallo{
+		visibility: visible;
+		opacity: 1;
+		height:auto;
+	}
+	.buttons.largo{
+		visibility: none;
+		opacity: 0;
+		height:0;
 	}
 }
