@@ -62,7 +62,7 @@ button:last-child{
 }
 
 .header-text{
-	color:red;
+	color:black;
 	font-size: 5em;
 }
 
@@ -94,7 +94,6 @@ button:last-child{
 	background-color:#333;
 	color:#999;
 	margin-bottom: 20px;
-	
 	width:100%;
 }
 
@@ -105,6 +104,19 @@ blockquote{
 .transport-header{
 	margin-bottom:30px;
 }
+
+.check{
+	color:green;
+}
+
+.rain{
+	color:blue;
+}
+
+.sun{
+	color:yellow;
+}
+
 .footer{
 	background-color: #CCC;
 	margin-top: 30px;
