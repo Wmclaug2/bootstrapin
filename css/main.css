@@ -1,161 +1,209 @@
-.container{
-	width:100%;
+/* Base Values*/
+
+    .container{
+        width:100%;
+    }
+
+/* Navigation*/
+
+    #nav-button{
+        background-color:black;
+    }
+
+    #nav-button:hover{
+        background-color:rgba(77,161,180);
+    }
+
+    .tabs-navs:hover{
+        background-color:#777;
+    }
+
+    .nav-pills{
+        float:right;
+        margin-top:5px;
+    }
+
+    #brand-logo{
+        color:rgba(51,122,183,.8);
+    }
+
+    #brand-logo:hover{
+        color:#dedede;
+    }
+/* Main Page Jumbo*/
+
+    .jumbo{
+        background:url('../images/space.jpg');
+        color:#111;
+        margin:20px auto 20px auto;
+        padding:40px;
+        width:90%;
+    }
+
+    .buttons{
+        margin:0 auto;
+    }
+
+    .buttons.smallo{
+        visibility: none;
+        opacity: 0;
+        height:0;
+    }
+
+    button{
+        border-radius:5px;
+        margin-bottom:30px;
+        margin-top:20px;
+        padding:15px;
+    }
+
+    button:last-child{
+        background-color:#4DA1A9;
+        border:1px solid #4DA1A9;
+        margin-left:10px;
+    }
+
+    .buttons a {
+        color:#DDD;
+        text-decoration: none;
+    }
+
+    .book-button a {
+	   color:white;
+    }   
+
+
+    .lead{
+        color:#DDD;
+        padding:10px;
+        padding-left: 20px;
+
+
+    }
+
+/* Main Page Features */
+
+    .features .glyphicon{
+        color:#4DA1A9;
+        font-size: 32px;
+        margin-top:20px;
+
+    }
+
+    .features{
+        padding:20px;
+        margin-bottom: 40px;
+    }
+
+/* Page Quotes */
+
+    .quote{
+        background-color:#333;
+        color:#999;
+        margin-bottom: 20px;
+        width:100%;
+    }
+
+    blockquote{
+        border-left:none;
+    }
+
+/* Transportation Options Content */
+
+    .transport-header{
+        margin-bottom:20px;
+    }
+
+    .transport-section{      
+        margin-bottom: 30px;
+        padding:20px;
+    }
+
+    .transporters{
+        margin:0 auto;
+        position:relative;
+        width:auto;
+    }
+
+    
+    .transport-mode{
+        height:auto;
+        margin-right:5%;   
+    }
+    
+
+/* Warnings */
+
+    .check{
+        color:green;
+    }
+
+    .warnings{
+        max-width: 960px;
+    }
+
+/* Footer */
+
+    .footer{
+        background-color: #CCC;
+        margin-top: 30px;
+        padding:30px;
+        padding-bottom: 40px;
+        width:100%;
+    }
+
+    .links, .who-are{
+        margin-left:8px;
+    }
+
+    .footer a:hover{
+        color:#efefef;
+    }
+
+/* Blog Page */
+
+    .tour-btn a {
+        color:white;
+    }
+
+
+
+/* Media Queries */
+
+    @media(max-width:800px){
+        .header-text{
+            font-size:3em;
+        }
+        button:first-child{
+            margin-left:-25px;
+        }
+        .jumbo{
+            width:100%;
+        }
+        img.space{
+            display:none;
+        }
+        .buttons.smallo{
+            visibility: visible;
+            opacity: 1;
+            height:auto;
+        }
+        .buttons.largo{
+            visibility: none;
+            opacity: 0;
+            height:0;
+        }
+        button:last-child{
+            margin-left:auto;
+        }
+    }
+
+
+.blog-page {
+    margin-bottom:50px;
 }
 
-.jumbo{
-	background:url('../images/space.jpg');
-	color:#111;
-	margin:20px auto 20px auto;
-	padding:40px;
-	width:90%;
-}
-
-.jumbo img{
-	/*width:90%;*/
-}
-
-.buttons{
-	margin:0 auto;
-}
-
-.buttons.smallo{
-	visibility: none;
-	opacity: 0;
-	height:0;
-}
-
-#nav-button{
-	background-color:black;
-}
-
-#nav-button:hover{
-	background-color:rgba(77,161,180);
-}
-
-.tabs-navs:hover{
-	background-color:#777;
-}
-
-.nav-pills{
-	float:right;
-	margin-top:5px;
-}
-
-button{
-	border-radius:5px;
-	margin-bottom:30px;
-	margin-top:20px;
-	padding:15px;
-}
-
-button:last-child{
-	background-color:#4DA1A9;
-	border:1px solid #4DA1A9;
-}
-
-.buttons a {
-	color:#DDD;
-	text-decoration: none;
-}
-
-.book-button a {
-	color:white;
-}
-
-.header{
-	margin:0 auto;
-	margin-bottom: 30px;
-	padding-top: 20px;
-	
-}
-
-.header-text{
-	color:black;
-	font-size: 5em;
-}
-
-#brand-logo{
-	color:rgba(51,122,183,.8);
-}
-
-.lead{
-	color:#DDD;
-	padding:10px;
-	padding-left: 20px;
-
-	
-}
-
-.features .glyphicon{
-	color:#4DA1A9;
-	font-size: 32px;
-	margin-top:20px;
-
-}
-
-.features{
-	padding:20px;
-	margin-bottom: 40px;
-}
-
-.quote{
-	background-color:#333;
-	color:#999;
-	margin-bottom: 20px;
-	width:100%;
-}
-
-blockquote{
-	border-left:none;
-}
-
-.transports{
-	margin-bottom: 30px;
-}
-
-.transport-header{
-	margin-bottom:20px;
-}
-
-.check{
-	color:green;
-}
-
-.footer{
-	background-color: #CCC;
-	margin-top: 30px;
-	padding:30px;
-	padding-bottom: 40px;
-	width:100%;
-}
-
-.links, .who-are{
-	margin-left:8px;
-}
-
-
-
-@media(max-width:800px){
-	.header-text{
-		font-size:3em;
-	}
-	button:first-child{
-		margin-left:-25px;
-	}
-	.jumbo{
-		width:100%;
-	}
-	img.space{
-		display:none;
-	}
-	.buttons.smallo{
-		visibility: visible;
-		opacity: 1;
-		height:auto;
-	}
-	.buttons.largo{
-		visibility: none;
-		opacity: 0;
-		height:0;
-	}
+.subscribe:hover {
+    color:#dedede;
+    text-decoration: none;
 }
