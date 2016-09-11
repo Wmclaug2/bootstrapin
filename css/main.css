@@ -166,6 +166,46 @@
         color:white;
     }
 
+    .blog-page {
+        margin-bottom:50px;
+    }
+
+    .subscribe:hover {
+        color:#dedede;
+        text-decoration: none;
+    }
+
+    .post-extender {
+        background-color:#dedede;
+        border:1px solid black;
+        border-radius:5px;
+        font-size:16px;
+        padding:5px;
+    }
+
+    .post a:hover {
+        text-decoration: none;
+        text-underline-position: none;
+    }
+
+    .meta li{
+        border-right:1px solid #cecece;
+        padding:5px 10px 5px 5px;
+    }
+
+    .meta li:first-child, .meta li:last-child{
+        border-right:none;
+    }
+    .meta{
+        margin-left:30px;
+    }
+
+    .post_content {
+        line-height:1.5;
+        margin-left:30px;
+        padding:15px;
+    }
+
 
 
 /* Media Queries */
@@ -198,12 +238,3 @@
         }
     }
 
-
-.blog-page {
-    margin-bottom:50px;
-}
-
-.subscribe:hover {
-    color:#dedede;
-    text-decoration: none;
-}
